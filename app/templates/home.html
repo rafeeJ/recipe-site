@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h1>Jenkins-Keyworth Home Site</h1>
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Recipes</h5>
+      <h6 class="card-subtitle mb-2 text-muted">I'm Hungry!</h6>
+      <p class="card-text">A quick app to decide what we are eating in the week</p>
+      <a href=" {{ url_for('recipes') }} " class="card-link">Go To App</a>
+    </div>
+  </div>
+{% endblock %}
